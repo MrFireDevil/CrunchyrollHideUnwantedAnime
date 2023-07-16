@@ -1,2 +1,34 @@
 # CrunchyRoll Hide Unwanted Anime
  The Crunchyroll Hide-Unwanted-Anime Extension is a browser extension that lets users hide anime shows they don't want to see in the new releases section of the Crunchyroll website. It offers a personalized and clutter-free browsing experience tailored to individual preferences.
+ ___
+
+ 
+Introducing Crunchyroll Hide-Unwanted-Anime Extension - your ultimate solution to customize your Crunchyroll experience! With this powerful browser extension, you can effortlessly hide all the anime shows you're not interested in. This will make it easier than ever to navigate through the latest releases on Crunchyroll.
+
+Are you tired of scrolling through countless titles that don't pique your interest? With Crunchyroll Hide Unwanted Anime Extension, you've taken back control of your anime-watching journey.
+
+With a clean and user-friendly interface, Crunchyroll Hide-Unwanted-Anime Extension seamlessly integrates with your Crunchyroll browsing experience. Stay up to date with the latest releases while maintaining a clean interface tailored to your tastes.
+
+Never miss the anime that really speaks to you again. Use Crunchyroll Hide Unwanted Anime Extension and enjoy a personalized Crunchyroll experience like never before. Get started today and discover a whole new world of anime tailored to your preferences.
+
+Currently, you can easily hide individual anime series/movies, but stay tuned for even more exciting functionalities coming soon! Customize your Crunchyroll journey like never before with the Crunchyroll Hide-Unwanted-Anime Extension.
+
+## Hint
+
+Please note that the extension may currently have some minor bugs. If you encounter any issues, simply reload the extension, 
+refresh the Crunchyroll webpage, and it should start working again.
+
+Otherwise, please open an issue on GitHub, and I will do my best to address it promptly. 
+Your feedback and contribution are highly appreciated in improving the functionality of the extension.
+
+That's my first browser extension, and it's just a hobby for me. I'm eager to learn as much as possible.
+
+## Support
+
+Please provide feedback, ideas, suggestions, and report any issues through the support page (GitHub project). 
+We appreciate your input and will address your concerns as promptly as possible.
+
+## Screenshots
+
+![image](https://github.com/MrFireDevil/CrunchyrollHideUnwantedAnime/assets/46726838/64a81663-e0ae-4be3-9645-ef6380ad422f)
+
