@@ -160,3 +160,31 @@ window.addEventListener('beforeunload', () => {
         });
     });
 });
+
+/* Darkmode slider */
+const themeSwitch = document.querySelector('#checkbox');
+
+// Set the initial state of the checkbox based on localStorage
+themeSwitch.checked = localStorage.getItem('darkMode') === 'true';
+
+// If darkMode was enabled before, add the class
+if (themeSwitch.checked) {
+    document.body.classList.add('dark-mode');
+}
+
+themeSwitch.addEventListener('change', (e) => {
+  document.body.classList.toggle('dark-mode', e.target.checked);
+  // Save the current state to localStorage
+  localStorage.setItem('darkMode', e.target.checked);
+});
+
+window.addEventListener('beforeunload', () => {
+  // Refresh all Crunchyroll tabs
+  chrome.tabs.query({}, (tabs) => {
+    tabs.forEach((tab) => {
+      if (tab.url.includes('crunchyroll.com')) {
+        chrome.tabs.reload(tab.id);
+      }
+    });
+  });
+});
