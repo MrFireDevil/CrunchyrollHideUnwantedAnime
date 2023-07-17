@@ -25,9 +25,9 @@ That's my first browser extension, and it's just a hobby for me. I'm eager to le
 
 ## TODO
 
- - [ ] DarkMode
- - [ ] Searchbar
- - [ ] Pagination
+ - [x] DarkMode
+ - [x] Searchbar
+ - [x] Pagination
  - [ ] Set anime as viewed (pro episode / pro season)
  - [ ] Account sync (free)
 
