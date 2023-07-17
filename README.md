@@ -23,6 +23,17 @@ Your feedback and contribution are highly appreciated in improving the functiona
 
 That's my first browser extension, and it's just a hobby for me. I'm eager to learn as much as possible.
 
+## TODO
+
+ - [ ] DarkMode
+ - [ ] Searchbar
+ - [ ] Pagination
+ - [ ] Set anime as viewed (pro episode / pro season)
+ - [ ] Account sync (free)
+
+## Ideas
+ - [ ] Anilist integration (sync)
+
 ## Support
 
 Please provide feedback, ideas, suggestions, and report any issues through the support page (GitHub project). 
