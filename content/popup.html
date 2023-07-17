@@ -4,13 +4,29 @@
   <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
 <body>
-  <h1 id="title">Unwanted animes</h1>
+  <div id="header">
+    <h1 id="title">Unwanted animes</h1>
+    <div id="theme-switch-wrapper">
+     <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+  </div>
   <div id="buttons">
     <button id="export">Export</button>
     <button id="import">Import</button>
+    <input type="text" id="search-input" placeholder="Search">
   </div>
   <input type="file" id="file-input" style="display: none;">
-  <div id="hidden-animes-list"></div>
+  <div id="anime-list-container">
+    <div id="hidden-animes-list"></div>
+  </div>
+  <div id="pagination">
+    <button id="prev-page">Previous page</button>
+    <span id="page-indicator"></span>
+    <button id="next-page">Next page</button>
+  </div>
   <script src="popup.js"></script>
 </body>
 </html>

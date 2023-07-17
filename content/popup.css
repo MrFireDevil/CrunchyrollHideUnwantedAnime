@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     padding: 10px;
     width: 500px;
+    display: flex;
+    flex-direction: column;
+    height: 560px;
 }
 
 #buttons {
@@ -37,4 +40,49 @@ button {
 .anime-name {
     margin-right: 10px;
     font-size: 16px;
+}
+
+#search-input {
+    background-color: lightgray; /* Gleiche Hintergrundfarbe wie die Buttons */
+    color: black; /* Gleiche Textfarbe wie die Buttons */
+    padding: 5px; /* Gleicher Innenabstand wie die Buttons */
+    font-size: 16px; /* Gleiche Schriftgröße wie die Buttons */
+    margin: 4px 2px; /* Gleicher Außenabstand wie die Buttons */
+    border: none; /* Entfernt den Standardrahmen */
+    border-radius: 4px; /* Gleicher Border-Radius wie die Buttons */
+    width: calc(100% - 40px); /* 100% - doppelter Abstand zum Rand */
+    box-sizing: border-box; /* Damit Padding und Border in die Breite einbezogen werden */
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 2px;
+    transition: background-color 0.6s ease;
+}
+
+.dot.active {
+    background-color: #717171;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    background: white;
+    margin-top: 10px;
+}
+
+#page-indicator {
+    margin: 0 10px;
+}
+
+#anime-list-container {
+    flex-grow: 1;
+    overflow-y: auto;
 }
