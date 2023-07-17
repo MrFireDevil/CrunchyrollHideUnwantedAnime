@@ -41,5 +41,12 @@ We appreciate your input and will address your concerns as promptly as possible.
 
 ## Screenshots
 
-![image](https://github.com/MrFireDevil/CrunchyrollHideUnwantedAnime/assets/46726838/64a81663-e0ae-4be3-9645-ef6380ad422f)
+### Lightmode
+![image](https://github.com/MrFireDevil/CrunchyrollHideUnwantedAnime/assets/46726838/c37aca24-4780-4b65-9715-a7f7fbab9d17)
+
+### Darkmode
+![image](https://github.com/MrFireDevil/CrunchyrollHideUnwantedAnime/assets/46726838/d412f5fd-e071-42ad-8a14-254ce81b6f87)
+
+
+
 
