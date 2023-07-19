@@ -149,18 +149,6 @@ document.getElementById('file-input').addEventListener('change', (event) => {
 
 const pageIndicator = document.getElementById('page-indicator');
 
-/* before unload */
-window.addEventListener('beforeunload', () => {
-    // Refresh all Crunchyroll tabs
-    chrome.tabs.query({}, (tabs) => {
-        tabs.forEach((tab) => {
-            if (tab.url.includes('crunchyroll.com')) {
-                chrome.tabs.reload(tab.id);
-            }
-        });
-    });
-});
-
 /* Darkmode slider */
 const themeSwitch = document.querySelector('#checkbox');
 
@@ -176,15 +164,4 @@ themeSwitch.addEventListener('change', (e) => {
   document.body.classList.toggle('dark-mode', e.target.checked);
   // Save the current state to localStorage
   localStorage.setItem('darkMode', e.target.checked);
-});
-
-window.addEventListener('beforeunload', () => {
-  // Refresh all Crunchyroll tabs
-  chrome.tabs.query({}, (tabs) => {
-    tabs.forEach((tab) => {
-      if (tab.url.includes('crunchyroll.com')) {
-        chrome.tabs.reload(tab.id);
-      }
-    });
-  });
 });
