@@ -1,5 +1,5 @@
 let currentPage = 0;
-const itemsPerPage = 6;
+const itemsPerPage = 25;
 
 // Get the hidden animes list and display it
 chrome.storage.local.get(null, (items) => {
@@ -59,15 +59,13 @@ chrome.storage.local.get(null, (items) => {
                     updateList();
                 });
             });
-        animeDiv.appendChild(unhideButton);
+            animeDiv.appendChild(unhideButton);
 
             hiddenAnimesList.appendChild(animeDiv);
         });
-
         // Enable or disable the page buttons based on the current page
         prevPageButton.disabled = currentPage === 0;
         nextPageButton.disabled = (currentPage + 1) * itemsPerPage >= hiddenAnimes.length;
-
         // Update the title to include the number of hidden animes
         title.textContent = `Unwanted animes (${hiddenAnimes.length})`;
     }
@@ -76,23 +74,20 @@ chrome.storage.local.get(null, (items) => {
     searchInput.addEventListener('input', (event) => {
         const searchQuery = event.target.value.toLowerCase();
         hiddenAnimes = Object.keys(items)
-                              .filter((key) => items[key] && key.toLowerCase().includes(searchQuery))
-                              .sort((a, b) => Math.abs(a.length - searchQuery.length) - Math.abs(b.length - searchQuery.length));
+            .filter((key) => items[key] && key.toLowerCase().includes(searchQuery))
+            .sort((a, b) => Math.abs(a.length - searchQuery.length) - Math.abs(b.length - searchQuery.length));
         currentPage = 0; // Reset current page
         updateList();
     });
-
     // Event listeners for the page buttons
     prevPageButton.addEventListener('click', () => {
         currentPage--;
         updateList();
     });
-
     nextPageButton.addEventListener('click', () => {
         currentPage++;
         updateList();
     });
-
     // Initial call to update the list
     updateList();
 });
@@ -101,10 +96,8 @@ document.getElementById('export').addEventListener('click', () => {
     // Get all hidden animes
     chrome.storage.local.get(null, (items) => {
         const hiddenAnimes = Object.keys(items).filter((key) => items[key]);
-
         // Create a blob with the data
         const blob = new Blob([JSON.stringify(hiddenAnimes)], {type: 'application/json'});
-
         // Create a link and click it to start the download
         const link = document.createElement('a');
         const date = new Date().toISOString();
@@ -123,12 +116,10 @@ document.getElementById('file-input').addEventListener('change', (event) => {
     if (!file) {
         return;
     }
-
     // Read the file
     const reader = new FileReader();
     reader.onload = (event) => {
         const hiddenAnimes = JSON.parse(event.target.result);
-
         // Store the imported animes
         const items = {};
         for (const anime of hiddenAnimes) {
@@ -139,7 +130,6 @@ document.getElementById('file-input').addEventListener('change', (event) => {
             chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
                 chrome.tabs.reload(tabs[0].id);
             });
-
             // Refresh the popup
             window.location.reload();
         });
@@ -161,7 +151,7 @@ if (themeSwitch.checked) {
 }
 
 themeSwitch.addEventListener('change', (e) => {
-  document.body.classList.toggle('dark-mode', e.target.checked);
-  // Save the current state to localStorage
-  localStorage.setItem('darkMode', e.target.checked);
+    document.body.classList.toggle('dark-mode', e.target.checked);
+    // Save the current state to localStorage
+    localStorage.setItem('darkMode', e.target.checked);
 });

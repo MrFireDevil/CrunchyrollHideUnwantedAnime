@@ -85,6 +85,7 @@ button {
 #anime-list-container {
     flex-grow: 1;
     overflow-y: auto;
+    padding-right: 5px;
 }
 
 /* Darkmode slider */
@@ -171,4 +172,23 @@ body.dark-mode .dot.active {
 
 body.dark-mode #pagination {
   background-color: #202124;
+}
+
+/* Stil für die Scroll-Leiste */
+::-webkit-scrollbar {
+  width: 8px;
+  margin-right: 30px;
+}
+
+body.dark-mode ::-webkit-scrollbar-track {
+  background-color: #202124;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
 }

@@ -25,14 +25,18 @@ That's my first browser extension, and it's just a hobby for me. I'm eager to le
 
 ## TODO
 
- - [x] DarkMode
- - [x] Searchbar
- - [x] Pagination
- - [ ] Set anime as viewed (pro episode / pro season)
- - [ ] Account sync (free)
+- [x] DarkMode
+- [x] Searchbar
+- [x] Pagination
+- [ ] Set anime as viewed (pro episode / pro season)
+- [ ] Account sync between Browsers (free)
+- [ ] Anilist integration (sync)
+- [ ] **(NEW)** Modular system for customizing content
+- [ ] **(NEW)** Showcasing and hiding modules
+- [ ] **(NEW)** Interactive customizable modules
 
 ## Ideas
- - [ ] Anilist integration (sync)
+ _No actually ideas_
 
 ## Support
 
@@ -44,3 +48,28 @@ We appreciate your input and will address your concerns as promptly as possible.
 | crunchyroll                                                                                                                | Lightmode                                                                                                                  | Darkmode                                                                                                                   |
 |----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | ![image](https://github.com/MrFireDevil/CrunchyrollHideUnwantedAnime/assets/46726838/a7bb8e01-21c7-4d5d-b573-002e1b713eac) | ![image](https://github.com/MrFireDevil/CrunchyrollHideUnwantedAnime/assets/46726838/c37aca24-4780-4b65-9715-a7f7fbab9d17) | ![image](https://github.com/MrFireDevil/CrunchyrollHideUnwantedAnime/assets/46726838/d412f5fd-e071-42ad-8a14-254ce81b6f87) |
+
+_Last edit 04.08.2023_
+
+## Changelog
+
+___
+
+### 1.1 News ideas and little changes
+
+_Changes_
+- Page size from _`6`_ to _`25`_ 
+- Add designed scrollbar for unwatched animes
+
+_Added_
+- [ ] **(NEW)** Modular system for customizing content
+- [ ] **(NEW)** Showcasing and hiding modules
+- [ ] **(NEW)** Interactive customizable modules
+
+_Moved from ideas to todos_
+- [ ] Anilist integration (sync)
+
+___
+
+### 1.0 First upload
+___
