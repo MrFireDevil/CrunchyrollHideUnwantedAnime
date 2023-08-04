@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Crunchyroll Hide-Unwanted-Anime",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Personalize Crunchyroll: Hide unwanted anime in new releases.",
     "permissions": ["storage", "activeTab"],
     "action": {
