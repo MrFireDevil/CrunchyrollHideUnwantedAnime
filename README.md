@@ -47,7 +47,7 @@ We appreciate your input and will address your concerns as promptly as possible.
 
 | crunchyroll                                                                                                                | Lightmode                                                                                                                  | Darkmode                                                                                                                   |
 |----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| ![image](https://github.com/MrFireDevil/CrunchyrollHideUnwantedAnime/assets/46726838/a7bb8e01-21c7-4d5d-b573-002e1b713eac) | ![image](https://github.com/MrFireDevil/CrunchyrollHideUnwantedAnime/assets/46726838/c37aca24-4780-4b65-9715-a7f7fbab9d17) | ![image](https://github.com/MrFireDevil/CrunchyrollHideUnwantedAnime/assets/46726838/d412f5fd-e071-42ad-8a14-254ce81b6f87) |
+| ![image](https://github.com/MrFireDevil/CrunchyrollHideUnwantedAnime/assets/46726838/a7bb8e01-21c7-4d5d-b573-002e1b713eac) | ![image](https://github.com/MrFireDevil/CrunchyrollHideUnwantedAnime/assets/46726838/065b3f82-edcb-4412-a1ee-4e3ca30f9be5) | ![image](https://github.com/MrFireDevil/CrunchyrollHideUnwantedAnime/assets/46726838/d4245199-218e-4850-bf1e-501c9087039e) |
 
 _Last edit 04.08.2023_
 
@@ -60,6 +60,7 @@ ___
 _Changes_
 - Page size from _`6`_ to _`25`_ 
 - Add designed scrollbar for unwatched animes
+- Update images in README.md
 
 _Added_
 - [ ] **(NEW)** Modular system for customizing content
